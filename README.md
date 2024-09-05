@@ -7,18 +7,18 @@ This project demonstrates the creation of a user management table using React, R
 1. User Management Table:
 The application includes a user management table that displays the following user information:
 
-Name
-Username
-Email
-Phone
+- Name
+- Username
+- Email
+- Phone
 The data is fetched from a mock API, and the table layout is designed to be both functional and visually appealing.
 2. Advanced Filtering:
 A search feature is integrated to filter the user information based on:
 
-Name
-Username
-Email
-Phone
+- Name
+- Username
+- Email
+- Phone
 The filtering is dynamic, meaning the results update in real time as the user types into the search inputs.
 3. State Management with Redux Toolkit:
 The application uses Redux Toolkit for state management. Redux Toolkit provides a more streamlined approach for managing global state, making use of tools like createSlice and configureStore.
@@ -26,10 +26,10 @@ The application uses Redux Toolkit for state management. Redux Toolkit provides 
 TypeScript is employed throughout the application to ensure type safety, making the code more predictable and reducing potential runtime errors.
 
 # Technologies Used
-React: For building the user interface.
-Redux Toolkit: For managing global state more efficiently.
-TypeScript: To enforce type safety and improve code quality.
-CSS: For styling the table and layout.
+- React: For building the user interface.
+- Redux Toolkit: For managing global state more efficiently.
+- TypeScript: To enforce type safety and improve code quality.
+- CSS: For styling the table and layout.
 
 # Getting Started with Create React App
 
