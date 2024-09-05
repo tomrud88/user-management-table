@@ -1,0 +1,55 @@
+#inputs-bar{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top:100px 
+}
+.input-wrapper{
+    position: relative;
+    margin-bottom:10px;
+}
+.input-wrapper input{
+    width:200px;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+    padding-right:24px;
+    box-sizing: border-box;
+}
+
+.clear-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #999;
+}
+
+
+@media (max-width: 1200px){
+     #inputs-bar {
+      width: auto;
+      justify-content: space-between;
+     }
+     .input-wrapper input{
+      margin:10px;
+      width:150px;
+     }
+}
+
+@media (max-width: 800px){
+     #inputs-bar {
+      width: auto;
+   
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+     }
+     .input-wrapper input{
+      margin:10px;
+      width:150px;
+     }
+}

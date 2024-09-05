@@ -1,0 +1,65 @@
+.table-wrapper {
+    margin-top: 10px;
+    overflow: hidden;
+    max-width: 2000px;
+    width:1200px;
+    border-radius: 10px; /* Apply border-radius to the wrapper */
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(251, 244, 244);
+    table-layout: auto;
+    border-radius: 10px;
+    max-width: 2000px;
+    width: 100%;
+    cursor:pointer;
+}
+thead th{
+    background-color: #36304a;
+    color:#fef8ea;
+}
+
+th,td{
+    padding: 10px;
+}
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(233, 232, 232);
+}
+tbody tr:hover {
+    background-color: white;
+}
+
+th.name, td.name {
+    width: 20%;
+}
+
+th.username, td.username {
+    width: 20%;
+}
+
+th.email, td.email {
+    width: 30%;
+}
+
+th.phone, td.phone {
+    width: 30%;
+}
+
+@media(max-width:1200px){
+    .table-wrapper{
+        width: 90%;
+        margin: 0 10px;
+    }
+    table{
+        width: 100%;
+    }
+}
