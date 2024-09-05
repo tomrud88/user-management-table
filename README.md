@@ -1,5 +1,7 @@
 # User Management Table with Redux Toolkit and Typescript
 
+![image alt](https://github.com/tomrud88/user-management-table/blob/master/table.png?raw=true)
+
 # Overview
 This project demonstrates the creation of a user management table using React, Redux Toolkit, and TypeScript. The table fetches user data from a mock API and provides local filtering capabilities. The main focus is on managing state using Redux Toolkit while maintaining type safety with TypeScript.
 
