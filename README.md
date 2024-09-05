@@ -21,8 +21,10 @@ A search feature is integrated to filter the user information based on:
 - Phone
 The filtering is dynamic, meaning the results update in real time as the user types into the search inputs.
 3. State Management with Redux Toolkit:
+  
 The application uses Redux Toolkit for state management. Redux Toolkit provides a more streamlined approach for managing global state, making use of tools like createSlice and configureStore.
 4. TypeScript for Type Safety:
+
 TypeScript is employed throughout the application to ensure type safety, making the code more predictable and reducing potential runtime errors.
 
 # Technologies Used
